@@ -61,8 +61,8 @@ RESTful 资源路径。
 基于 CRD 对象所创建的自定义资源可以是名字空间作用域的，也可以是集群作用域的，
 取决于 CRD 对象 `spec.scope` 字段的设置。
 
-与其它的内置对象一样，删除名字空间也将删除该名字空间中的所有自定义对象。
-CustomResourceDefinitions 本身是无名字空间的，可在所有名字空间中访问。
+与其它的内置对象一样，删除命名空间也将删除该命名空间中的所有自定义对象。
+CustomResourceDefinitions 本身是无命名空间的，可在所有命名空间中访问。
 
 例如，如果你将下面的 CustomResourceDefinition 保存到 `resourcedefinition.yaml`
 文件：
